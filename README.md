@@ -57,7 +57,8 @@ openpyxl
 matplotlib  
 scipy  
 scikit-learn    
-nbdev `conda install -c fastai nbdev`
+nbdev  
+`conda install -c fastai nbdev`
 
 ## nbdev notes
 conda install of nbdev didn't work for me.
