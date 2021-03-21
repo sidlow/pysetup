@@ -59,6 +59,29 @@ scipy
 scikit-learn    
 nbdev `conda install -c fastai nbdev`
 
+## nbdev notes
+conda install of nbdev didn't work for me.
+### steps
+#### Install git
+#### Install miniconda
+#### create repos directory
+#### cd to repos
+#### git init
+#### create virtual env
+#### activate the env
+#### install jupyterlab
+`conda install -c conda-forge jupyterlab`
+#### install nbdev (used pip install as the conda install didn't seem to work)
+`pip install nbdev`
+#### create github repo for project from nbdev template (make sure name is same as project)
+https://github.com/fastai/nbdev_template/generate
+#### git clone in repos directory
+`git clone https://github.com/[githubrepo]`
+#### 
+#### cd to the name of the project
+#### run
+
+
 ## to look at
 nbdev # extends dev emv in jupyterlabs (https://nbdev.fast.ai/tutorial.html)
 viola #Voilà turns Jupyter notebooks into standalone web applications. (https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93)
