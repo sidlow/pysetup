@@ -33,24 +33,31 @@ to remove an env
 
 
 ### links
+https://project-awesome.org/markusschanta/awesome-jupyter  
 https://jupyterlab.readthedocs.io/en/stable/  
-https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bbhttps://python.plainenglish.io/what-the-newly-released-jupyterlab-3-has-to-offer-a9a144d93046
+https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bbhttps://python.plainenglish.io/what-the-newly-released-jupyterlab-3-has-to-offer-a9a144d93046  
 https://towardsdatascience.com/a-quick-and-easy-guide-to-managing-conda-environments-87bfe7bab065 
-https://towardsdatascience.com/creating-a-solid-data-science-development-environment-60df14ce3a34  
+https://towardsdatascience.com/creating-a-solid-data-science-development-environment-60df14ce3a34   
 https://towardsdatascience.com/jupyter-is-now-a-full-fledged-ide-c99218d33095  
-https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559
+https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559  
+https://tdhopper.com/blog/my-python-environment-workflow-with-conda  
 https://towardsdatascience.com/the-point-of-no-return-using-nbdev-for-the-past-6-months-changed-the-way-i-code-in-jupyter-2c5b0e6d2c4a  
 https://towardsdatascience.com/a-step-by-step-introduction-to-starting-nbdev-exploratory-programming-4a761ed1f796  
 https://nbdev.fast.ai/tutorial.html  
 https://pete88b.github.io/fastpages/nbdev/fastai/jupyter/2020/07/24/nbdev-deep-dive.htmlopnpyx  
 https://medium.com/@saneshashank/nbdev-is-all-you-need-51d1b4be7e34  
-https://tomassetti.me/working-with-excel-in-python/
+https://tomassetti.me/working-with-excel-in-python/  
 
 ## libs to install
 jupyterlab 3 use the conda-forge channel
 `conda install -c conda-forge jupyterlab`
-pandas
-openpyxl
+pandas  
+openpyxl  
+matplotlib  
+scipy  
+scikit-learn    
+nbdev `conda install -c fastai nbdev`
+
 ## to look at
 nbdev # extends dev emv in jupyterlabs (https://nbdev.fast.ai/tutorial.html)
 viola #Voilà turns Jupyter notebooks into standalone web applications. (https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93)
