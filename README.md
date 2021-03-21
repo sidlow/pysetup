@@ -35,7 +35,8 @@ to remove an env
 ### links
 https://project-awesome.org/markusschanta/awesome-jupyter  
 https://jupyterlab.readthedocs.io/en/stable/  
-https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bbhttps://python.plainenglish.io/what-the-newly-released-jupyterlab-3-has-to-offer-a9a144d93046  
+https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb  
+https://python.plainenglish.io/what-the-newly-released-jupyterlab-3-has-to-offer-a9a144d93046  
 https://towardsdatascience.com/a-quick-and-easy-guide-to-managing-conda-environments-87bfe7bab065 
 https://towardsdatascience.com/creating-a-solid-data-science-development-environment-60df14ce3a34   
 https://towardsdatascience.com/jupyter-is-now-a-full-fledged-ide-c99218d33095  
