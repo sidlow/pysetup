@@ -83,6 +83,12 @@ https://github.com/fastai/nbdev_template/generate
 #### cd to the name of the project
 #### run
 
+### General nbdev notes
+make sure to uncomment the appropriate commented out sections.  
+I forgot to uncomment the description and when I tried to run nbdev_build_lib, it errored out.
+
+'# default_exp core' in the first line of the notebook is where you set the name of the module that will be exported to a pythom module.
+
 
 ## to look at
 nbdev # extends dev emv in jupyterlabs (https://nbdev.fast.ai/tutorial.html)
