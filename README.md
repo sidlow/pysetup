@@ -32,6 +32,7 @@ to remove an env
 `conda env remove -n test`
 
 
+
 ### links
 https://project-awesome.org/markusschanta/awesome-jupyter  
 https://jupyterlab.readthedocs.io/en/stable/  
