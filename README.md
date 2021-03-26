@@ -1,4 +1,17 @@
 # Windows Env
+developer setting apply (excluding RD)
+install vs code, notepad++,Windows terminal
+
+
+Install FiraCode Nerd Font  
+(https://www.nerdfonts.com/)  
+https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+unzip and double click  
+`Fira Code Regular Nerd Font Complete Mono Windows Compatible.otf`
+click Install
+
+
+
 ## Git
 https://git-scm.com/download/win  
 tortoise for git (use for visual aid)  
@@ -7,7 +20,33 @@ In the project folder
  `git config --global user.name "Your Name"`  
  email as well?  
 
-## powershell setup
+## Powershell setup (assuming windows terminal)
+powerlines setup 
+https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup  
+oh my posh  
+https://ohmyposh.dev/docs/  
+`Install-Module posh-git -Scope CurrentUser`  
+`Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease`  
+probaly get an error like 
+Install-Module : A parameter cannot be found that matches parameter name 'AllowPrerelease  
+if so open up powershell in admin (right mouse click start)  
+`Install-Module -Name PowerShellGet -Repository PSGallery -Force`  
+ In  non admin powershell  
+ `Import-Module PowerShellGet`  
+ then try again  
+ open settings in Windows Terminal(ctrl+)  
+ add following line to the powershell config entry   
+ `"fontFace": "FiraCode NF",`  
+ Edit $PROFILE in vs code  
+ `code $PROFILE`  
+ and add the following line  
+ `Set-PoshPrompt -Theme agnoster`  
+ reset powershell  
+ . $profile  
+ and then customise and reload  
+ Set-PoshPrompt -Theme mytheme.omp.json  
+ 
+ 
 
 ## Python/Pip
 setting up virtual envs in python  
@@ -25,17 +64,17 @@ PS >>  .\venv\Scripts\activate
 
 ## Conda
 Miniconda install
-Add the conda-forge channel
-`conda config --add channels conda-forge`
-set the channel priority to strict
-`conda config --set channel-priority strict
+Add the conda-forge channel  
+`conda config --add channels conda-forge`  
+set the channel priority to strict  
+`conda config --set channel-priority strict`   
 create env  
 `conda create -n test python=3.9`  
 Powershell you may need to initialise conda first  
 `conda init powershell`  
 `conda activate test`  
 to remove an env  
-`conda env remove -n test`
+`conda env remove -n test`  
 
 ## libs to install
 jupyterlab 3 use the conda-forge channel
