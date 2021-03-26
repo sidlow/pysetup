@@ -6,7 +6,9 @@ In the project folder
 `git init`  
  `git config --global user.name "Your Name"`  
  email as well?  
-     
+
+## powershell setup
+
 ## Python/Pip
 setting up virtual envs in python  
 python -m venv webappenv  
@@ -22,7 +24,11 @@ commandline >> \venv\scripts\activate.bat
 PS >>  .\venv\Scripts\activate  
 
 ## Conda
-Miniconda install  
+Miniconda install
+Add the conda-forge channel
+`conda config --add channels conda-forge`
+set the channel priority to strict
+`conda config --set channel-priority strict
 create env  
 `conda create -n test python=3.9`  
 Powershell you may need to initialise conda first  
@@ -31,9 +37,21 @@ Powershell you may need to initialise conda first
 to remove an env  
 `conda env remove -n test`
 
+## libs to install
+jupyterlab 3 use the conda-forge channel
+`conda install -c conda-forge jupyterlab`
+pandas  
+openpyxl  
+matplotlib  
+scipy  
+scikit-learn    
+nbdev  
+`conda install -c fastai nbdev`
 
+## Jupyterlab
 
 ### links
+http://hanselman.com/tools
 https://project-awesome.org/markusschanta/awesome-jupyter  
 https://jupyterlab.readthedocs.io/en/stable/  
 https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb  
@@ -50,16 +68,7 @@ https://pete88b.github.io/fastpages/nbdev/fastai/jupyter/2020/07/24/nbdev-deep-d
 https://medium.com/@saneshashank/nbdev-is-all-you-need-51d1b4be7e34  
 https://tomassetti.me/working-with-excel-in-python/  
 
-## libs to install
-jupyterlab 3 use the conda-forge channel
-`conda install -c conda-forge jupyterlab`
-pandas  
-openpyxl  
-matplotlib  
-scipy  
-scikit-learn    
-nbdev  
-`conda install -c fastai nbdev`
+
 
 ## nbdev notes
 conda install of nbdev didn't work for me.
