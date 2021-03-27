@@ -54,8 +54,8 @@ if so open up powershell in admin (right mouse click start)
  `Set-PoshPrompt -Theme agnoster`  
  reset powershell  
  . $profile  
- and then customise and reload  
- Set-PoshPrompt -Theme mytheme.omp.json  
+ and then reload as you custumise 
+ `Set-PoshPrompt -Theme mytheme.omp.json`  
  
  
 
