@@ -42,10 +42,10 @@ probaly get an error like
 Install-Module : A parameter cannot be found that matches parameter name 'AllowPrerelease  
 if so open up powershell in admin (right mouse click start)  
 `Install-Module -Name PowerShellGet -Repository PSGallery -Force`  
- In  non admin powershell  
+ In new non admin powershell  
  `Import-Module PowerShellGet`  
  then try again  
- open settings in Windows Terminal(ctrl+)  
+ open settings in Windows Terminal(ctrl+,)  
  add following line to the powershell config entry   
  `"fontFace": "FiraCode NF",`  
  Edit $PROFILE in vs code  
