@@ -80,7 +80,7 @@ Miniconda install
 Add the conda-forge channel  
 `conda config --add channels conda-forge`  
 set the channel priority to strict  
-`conda config --set channel-priority strict`   
+`conda config --set channel_priority strict`   
 create env  
 `conda create -n test python=3.9`  
 Powershell you may need to initialise conda first  
