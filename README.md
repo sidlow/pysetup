@@ -15,11 +15,12 @@ choose font and add 'FiraCode NF' (including quotes) to the front of the font fa
 `'FiraCode NF', Consolas, 'Courier New', monospace`  
 Just above is a section called Font Ligatures.  
 click on edit in settings.json and replace null with true. should look like this:  
-	```{
-	    "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
-	    "editor.fontLigatures": true
-	}
-
+```
+{
+    "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true
+}
+```
 
 
 ## Git
