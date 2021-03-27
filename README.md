@@ -2,13 +2,23 @@
 developer setting apply (excluding RD)
 install vs code, notepad++,Windows terminal
 
-
 Install FiraCode Nerd Font  
 (https://www.nerdfonts.com/)  
 https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
 unzip and double click  
 `Fira Code Regular Nerd Font Complete Mono Windows Compatible.otf`
-click Install
+click Install  
+To setup in vscode with litagtaions:   
+https://tahoeninjas.blog/2019/03/16/setting-fira-code-as-your-default-visual-studio-code-font/   
+(menu->preferences->settings)
+choose font and add 'FiraCode NF' (including quotes) to the front of the font family  
+`'FiraCode NF', Consolas, 'Courier New', monospace`  
+Just above is a section called Font Ligatures.  
+click on edit in settings.json and replace null with true. should look like this:  
+```{
+    "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true
+}```
 
 
 
