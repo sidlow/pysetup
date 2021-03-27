@@ -116,7 +116,7 @@ if so open up powershell in admin (right mouse click start)
  `Set-PoshPrompt -Theme agnoster`  
  reset powershell  
  . $profile  
- and then reload as you custumise 
+ and then reload as you customise 
  `Set-PoshPrompt -Theme mytheme.omp.json`  
 
 ## nbdev notes
