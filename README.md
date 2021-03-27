@@ -30,37 +30,8 @@ In the project folder
 `git init`  
  `git config --global user.name "Your Name"`  
  email as well?  
-
-## Powershell setup (assuming windows terminal)
-powerlines setup 
-https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup  
-oh my posh  
-https://ohmyposh.dev/docs/  
-`Install-Module posh-git -Scope CurrentUser`  
-`Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease`  
-probaly get an error like 
-Install-Module : A parameter cannot be found that matches parameter name 'AllowPrerelease  
-if so open up powershell in admin (right mouse click start)  
-`Install-Module -Name PowerShellGet -Repository PSGallery -Force`  
- In new non admin powershell  
- `Import-Module PowerShellGet`  
- then try again  
- to see Posh themes as they'd look in the directory you're currently in
- `Get-PoshThemes`
- open settings in Windows Terminal(ctrl+,)  
- add following line to the powershell config entry   
- `"fontFace": "FiraCode NF",`  
- Edit $PROFILE in vs code  
- `code $PROFILE`  
- and add the following line  
- `Set-PoshPrompt -Theme agnoster`  
- reset powershell  
- . $profile  
- and then reload as you custumise 
- `Set-PoshPrompt -Theme mytheme.omp.json`  
  
  
-
 ## Python/Pip
 setting up virtual envs in python  
 python -m venv webappenv  
@@ -120,7 +91,33 @@ https://pete88b.github.io/fastpages/nbdev/fastai/jupyter/2020/07/24/nbdev-deep-d
 https://medium.com/@saneshashank/nbdev-is-all-you-need-51d1b4be7e34  
 https://tomassetti.me/working-with-excel-in-python/  
 
-
+## Powershell setup (assuming windows terminal)
+powerlines setup 
+https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup  
+oh my posh  
+https://ohmyposh.dev/docs/  
+`Install-Module posh-git -Scope CurrentUser`  
+`Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease`  
+probaly get an error like 
+Install-Module : A parameter cannot be found that matches parameter name 'AllowPrerelease  
+if so open up powershell in admin (right mouse click start)  
+`Install-Module -Name PowerShellGet -Repository PSGallery -Force`  
+ In new non admin powershell  
+ `Import-Module PowerShellGet`  
+ then try again  
+ to see Posh themes as they'd look in the directory you're currently in
+ `Get-PoshThemes`
+ open settings in Windows Terminal(ctrl+,)  
+ add following line to the powershell config entry   
+ `"fontFace": "FiraCode NF",`  
+ Edit $PROFILE in vs code  
+ `code $PROFILE`  
+ and add the following line  
+ `Set-PoshPrompt -Theme agnoster`  
+ reset powershell  
+ . $profile  
+ and then reload as you custumise 
+ `Set-PoshPrompt -Theme mytheme.omp.json`  
 
 ## nbdev notes
 conda install of nbdev didn't work for me.
