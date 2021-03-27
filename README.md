@@ -45,6 +45,8 @@ if so open up powershell in admin (right mouse click start)
  In new non admin powershell  
  `Import-Module PowerShellGet`  
  then try again  
+ to see Posh themes as they'd look in the directory you're currently in
+ `Get-PoshThemes`
  open settings in Windows Terminal(ctrl+,)  
  add following line to the powershell config entry   
  `"fontFace": "FiraCode NF",`  
