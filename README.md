@@ -121,7 +121,7 @@ if so open up powershell in admin (right mouse click start)
  reset powershell  
  . $profile  
  and then reload as you customise 
- `Set-PoshPrompt -Theme mytheme.omp.json`  
+ `Set-PoshPrompt -Theme .mytheme.omp.json`  
 
 ## nbdev notes
 conda install of nbdev didn't work for me.
