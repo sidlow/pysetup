@@ -92,6 +92,7 @@ https://medium.com/@saneshashank/nbdev-is-all-you-need-51d1b4be7e34
 https://tomassetti.me/working-with-excel-in-python/  
 
 ## Powershell setup (assuming windows terminal)
+programming tags(python) won't show up untill there is a py venv or file setup in theat dir
 powerlines setup 
 https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup  
 oh my posh  
