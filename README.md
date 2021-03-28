@@ -63,6 +63,9 @@ to remove an env
 ## libs to install
 jupyterlab 3 use the conda-forge channel
 `conda install -c conda-forge jupyterlab`
+need to install nodejs fro jupyter extensions (easy to do with conda)  
+`conda install nodejs`  
+
 pandas  
 openpyxl  
 matplotlib  
@@ -174,4 +177,4 @@ This image is from Practical Data Analysis Using Jupyter Notebook(2020) Marc Win
 ML:
 scikit
 
- inport xml.dom.minidom
+ import xml.dom.minidom
