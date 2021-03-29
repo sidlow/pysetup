@@ -75,6 +75,8 @@ nbdev
 `conda install -c fastai nbdev`
 
 ## Jupyterlab
+to get the the qgrid extension working in Jupyter lab see:
+github.com/quantopian/qgrid/issues/350
 
 ### links
 http://hanselman.com/tools
