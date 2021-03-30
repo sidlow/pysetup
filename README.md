@@ -75,6 +75,12 @@ nbdev
 `conda install -c fastai nbdev`
 
 ## Jupyterlab
+install debugger requires diff kernel
+`conda create -n name jupyterlab=3 xeus-python`  
+sql  
+`%load_ext sql`  
+%sql mssql+pyodbc://
+
 to get the the qgrid extension working in Jupyter lab see:
 github.com/quantopian/qgrid/issues/350
 
