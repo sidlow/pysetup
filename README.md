@@ -85,13 +85,13 @@ to get the the qgrid extension working in Jupyter lab see:
 github.com/quantopian/qgrid/issues/350
 
 ### links
-http://hanselman.com/tools
+http://hanselman.com/tools  
 https://project-awesome.org/markusschanta/awesome-jupyter  
 https://jupyterlab.readthedocs.io/en/stable/  
 https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb  
 https://python.plainenglish.io/what-the-newly-released-jupyterlab-3-has-to-offer-a9a144d93046  
 https://towardsdatascience.com/a-quick-and-easy-guide-to-managing-conda-environments-87bfe7bab065 
-https://towardsdatascience.com/creating-a-solid-data-science-development-environment-60df14ce3a34   
+https://towardsdatascience.com/creating-a-solid-data-science-development-environment-60df14ce3a34  
 https://towardsdatascience.com/jupyter-is-now-a-full-fledged-ide-c99218d33095  
 https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559  
 https://tdhopper.com/blog/my-python-environment-workflow-with-conda  
@@ -103,7 +103,7 @@ https://medium.com/@saneshashank/nbdev-is-all-you-need-51d1b4be7e34
 https://tomassetti.me/working-with-excel-in-python/  
 
 ## Powershell setup (assuming windows terminal)
-programming tags(python) won't show up untill there is a py venv or file setup in theat dir
+programming tags(python) won't show up untill there is a py venv or file setup in theat dir  
 powerlines setup 
 https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup  
 oh my posh  
@@ -117,10 +117,10 @@ if so open up powershell in admin (right mouse click start)
  In new non admin powershell  
  `Import-Module PowerShellGet`  
  then try again  
- to see Posh themes as they'd look in the directory you're currently in
- `Get-PoshThemes`
+ to see Posh themes as they'd look in the directory you're currently in  
+ `Get-PoshThemes`  
  open settings in Windows Terminal(ctrl+,)  
- add following line to the powershell config entry   
+ add following line to the powershell config entry  
  `"fontFace": "FiraCode NF",`  
  Edit $PROFILE in vs code  
  `code $PROFILE`  
@@ -132,7 +132,7 @@ if so open up powershell in admin (right mouse click start)
  `Set-PoshPrompt -Theme .mytheme.omp.json`  
 
 ## nbdev notes
-conda install of nbdev didn't work for me.
+conda install of nbdev didn't work for me. 
 ### steps
 #### Install git
 #### Install miniconda
@@ -142,47 +142,47 @@ conda install of nbdev didn't work for me.
 #### create virtual env
 #### activate the env
 #### install jupyterlab
-`conda install -c conda-forge jupyterlab`
+`conda install -c conda-forge jupyterlab` 
 #### install nbdev (used pip install as the conda install didn't seem to work)
-`pip install nbdev`
+`pip install nbdev` 
 #### create github repo for project from nbdev template (make sure name is same as project)
-https://github.com/fastai/nbdev_template/generate
+https://github.com/fastai/nbdev_template/generate 
 #### git clone in repos directory
-`git clone https://github.com/[githubrepo]`
+`git clone https://github.com/[githubrepo]` 
 #### 
 #### cd to the name of the project
 #### run
 
 ### General nbdev notes
 make sure to uncomment the appropriate commented out sections.  
-I forgot to uncomment the description and when I tried to run nbdev_build_lib, it errored out.
+I forgot to uncomment the description and when I tried to run nbdev_build_lib, it errored out. 
 
-'# default_exp core' in the first line of the notebook is where you set the name of the module that will be exported to a pythom module.
+'# default_exp core' in the first line of the notebook is where you set the name of the module that will be exported to a pythom module.  
 
 
 ## to look at
-nbdev # extends dev emv in jupyterlabs (https://nbdev.fast.ai/tutorial.html)
-viola #Voilà turns Jupyter notebooks into standalone web applications. (https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93)
+nbdev # extends dev emv in jupyterlabs (https://nbdev.fast.ai/tutorial.html) 
+viola #Voilà turns Jupyter notebooks into standalone web applications. (https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93) 
 xlwings # gives more manipulation options of excel via python see the python for excel Orielly book (including replacing vba with python for pro ed)
-nb2xls or XlsxPandasFormatter # jupyter notebooks to excel spreadsheet
-pytest
-black on jupyter?
+nb2xls or XlsxPandasFormatter # jupyter notebooks to excel spreadsheet 
+pytest 
+black on jupyter? 
 sqlalchemy - SQL 
-beeware - UI - desktop
-check out xeus-python https://github.com/jupyter-xeus/xeus-python (looks like it might be Conda specific)
+beeware - UI - desktop 
+check out xeus-python https://github.com/jupyter-xeus/xeus-python (looks like it might be Conda specific) 
 
-for pandas:
-pyjanitor - convenient dat celaning functions that can be chained
+for pandas: 
+pyjanitor - convenient dat celaning functions that can be chained 
 
-plotting graphing: check piviz ecosystem (conda focus)
-matplotlib
-seaborn
-bokeh
+plotting graphing: check piviz ecosystem (conda focus) 
+matplotlib 
+seaborn 
+bokeh 
 ![image](https://user-images.githubusercontent.com/8316686/111890700-2a785000-8a40-11eb-8c61-80fedd19b024.png)
 This image is from Practical Data Analysis Using Jupyter Notebook(2020) Marc Wintjen, Andrew Vlahutin
 
 
-ML:
-scikit
+ML: 
+scikit 
 
  import xml.dom.minidom
