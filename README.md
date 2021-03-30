@@ -161,23 +161,23 @@ I forgot to uncomment the description and when I tried to run nbdev_build_lib, i
 
 
 ## to look at
-nbdev # extends dev emv in jupyterlabs (https://nbdev.fast.ai/tutorial.html) 
-viola #Voilà turns Jupyter notebooks into standalone web applications. (https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93) 
-xlwings # gives more manipulation options of excel via python see the python for excel Orielly book (including replacing vba with python for pro ed)
-nb2xls or XlsxPandasFormatter # jupyter notebooks to excel spreadsheet 
+nbdev # extends dev emv in jupyterlabs (https://nbdev.fast.ai/tutorial.html)  
+viola #Voilà turns Jupyter notebooks into standalone web applications. (https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93)  
+xlwings # gives more manipulation options of excel via python see the python for excel Orielly book (including replacing vba with python for pro ed)  
+nb2xls or XlsxPandasFormatter # jupyter notebooks to excel spreadsheet  
 pytest 
-black on jupyter? 
-sqlalchemy - SQL 
-beeware - UI - desktop 
-check out xeus-python https://github.com/jupyter-xeus/xeus-python (looks like it might be Conda specific) 
+black on jupyter?  
+sqlalchemy - SQL  
+beeware - UI - desktop  
+check out xeus-python https://github.com/jupyter-xeus/xeus-python (looks like it might be Conda specific)   
 
 for pandas: 
-pyjanitor - convenient dat celaning functions that can be chained 
+pyjanitor - convenient dat celaning functions that can be chained  
 
-plotting graphing: check piviz ecosystem (conda focus) 
-matplotlib 
-seaborn 
-bokeh 
+plotting graphing: check piviz ecosystem (conda focus)  
+matplotlib  
+seaborn  
+bokeh  
 ![image](https://user-images.githubusercontent.com/8316686/111890700-2a785000-8a40-11eb-8c61-80fedd19b024.png)
 This image is from Practical Data Analysis Using Jupyter Notebook(2020) Marc Wintjen, Andrew Vlahutin
 
