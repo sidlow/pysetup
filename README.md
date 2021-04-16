@@ -83,6 +83,8 @@ going to play with this and try and make it part of my workflow
 
 for go-to-def functionality  
 `jupyter labextension install @krassowski/jupyterlab_go_to_definition`  
+got it working but had to change from Xeus to python kernel
+going to have a look at jupyterlab-lsp
 
 
 
