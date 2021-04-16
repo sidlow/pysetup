@@ -63,7 +63,7 @@ to remove an env
 ## libs to install
 jupyterlab 3 use the conda-forge channel
 `conda install -c conda-forge jupyterlab`
-need to install nodejs fro jupyter extensions (easy to do with conda)  
+need to install nodejs for jupyter extensions (easy to do with conda)  
 `conda install nodejs`  
 
 pandas  
@@ -77,12 +77,23 @@ nbdev
 ## Jupyterlab
 install debugger requires diff kernel
 `conda create -n name jupyterlab=3 xeus-python`  
+jupytext
+`conda install jupytext`
+going to play with this and try and make it part of my workflow
+
+for go-to-def functionality  
+`jupyter labextension install @krassowski/jupyterlab_go_to_definition`  
+
+
+
 sql  
 `%load_ext sql`  
 %sql mssql+pyodbc://
 
 to get the the qgrid extension working in Jupyter lab see:
 github.com/quantopian/qgrid/issues/350
+
+installed the 
 
 ### links
 http://hanselman.com/tools  
