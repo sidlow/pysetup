@@ -199,3 +199,7 @@ ML:
 scikit 
 
  import xml.dom.minidom
+ 
+ 
+ # Scala
+ Easiest way to install a scala env from scratch looks like https://get-coursier.io/
